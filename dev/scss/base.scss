@@ -1,0 +1,10 @@
+*,*:before,*:after{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: "averia",sans-serif;
+    font-weight: 300;
+}
+@import "./fonts/averia.scss";
+@import "./header/header.scss";
+@import "./main/main.scss";

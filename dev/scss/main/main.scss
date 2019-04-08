@@ -1,0 +1,49 @@
+main{
+    max-width: 1260px;
+    margin: auto;
+    padding:1rem 2rem;
+    article{
+        padding: 2.5rem 2rem;
+        background: #f1f1f1;
+        font-size: 20px/28px;
+        h1{
+            position: relative;
+            text-align: center;
+            margin: 2rem 1rem;
+            font-size: 2.75rem;
+            font-family: "averia i";
+            &:after{
+                content: "";
+                position: absolute;
+                display: inline-block;
+                width: 5rem;
+                border-bottom: 1px solid #000;
+                left: calc(50% - 2.5rem);
+                bottom: -.5rem;
+            }
+        }
+        div{
+            max-width: 35rem;
+            line-height: 1.5rem;
+            margin: 1.5rem auto;
+            position: relative;
+            h4{
+                font-weight:400;
+                text-align: right;
+                position: absolute;
+                left: 0;
+                transform: translateX(calc(-100% - 2rem));
+            }
+            &.subject,
+            &.interviewer{
+                padding-left: 2rem;
+                h4{
+                    transform: translateX(-100%);
+                }
+            }
+            p:not(:last-of-type){
+                margin-bottom: 1rem;
+            }
+        }
+    }
+}
