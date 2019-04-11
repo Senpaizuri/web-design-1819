@@ -13,6 +13,6 @@ app.get("/",(req,res)=>{
     res.status(200).render("home/home.ejs")
 })
 
-app.listen(port,(a,b)=>{
+app.listen(port,()=>{
     console.log(`Active on port ${port}`)
 })

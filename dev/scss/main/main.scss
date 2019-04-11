@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Luckiest+Guy');
 main{
     max-width: 1260px;
     margin: auto;
@@ -5,7 +6,6 @@ main{
     article{
         padding: 2.5rem 2rem;
         background: #f1f1f1;
-        font-size: 20px/28px;
         h1{
             position: relative;
             text-align: center;
@@ -20,6 +20,16 @@ main{
                 border-bottom: 1px solid #000;
                 left: calc(50% - 2.5rem);
                 bottom: -.5rem;
+            }
+        }
+        &>div{
+            transform: translateY(2rem);
+            opacity: 0;
+            transition: .3s ease all;
+            transition-delay: .3s;
+            &.active{
+                opacity: 1;
+                transform: none;
             }
         }
         div{
@@ -44,6 +54,25 @@ main{
             p:not(:last-of-type){
                 margin-bottom: 1rem;
             }
+            span{
+                display: inline-block;
+            }
         }
     }
+}
+.q{
+    letter-spacing: .1rem;
+}
+.l{
+    letter-spacing: .2rem;
+    font-style: italic;
+}
+.b{
+    font-size: 1.5rem;
+}
+.c{
+    font-family: "luckiest guy"
+}
+.i{
+    font-style: italic;
 }
