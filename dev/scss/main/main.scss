@@ -71,7 +71,10 @@ main{
     font-size: 1.5rem;
 }
 .c{
-    font-family: "luckiest guy"
+    font-family: "luckiest guy";
+    background: linear-gradient(to right, #ebcc19 0%, orange 100%);
+	-webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 .i{
     font-style: italic;
