@@ -5,8 +5,9 @@
             root:null,
             rootMargin: "0px",
             treshold:.01
-        }
-    
+        },
+        wordBlocks = Array.from(storyBlocks).forEach(word=> word.innerHTML.split(""))
+        console.log(storyBlocks)
     let 
         enhanceStory = (entries)=>{
             entries.forEach(entry=>{
