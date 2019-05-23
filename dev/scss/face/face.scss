@@ -1,0 +1,91 @@
+#people{
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%) scale(1.25);
+    .mark{
+        .elna{
+            transform: translateX(-.5rem);
+        }
+    }
+    .ira{
+        .elna{
+            transform: translateX(.5rem);
+        }
+    }
+    .face{
+        background: transparent !important;
+        height: 4rem;
+        width: 4rem;
+        margin: 0;
+        transition: .5s ease-out all;
+        &.mark{
+            transform: translateX(.5rem);
+        }
+        &.ira{
+            transform: translateX(-.5rem);
+        }
+        div{
+            position: absolute;
+            margin: 0;
+            div{
+                background: #000;
+                border-radius: 300px;
+                margin: 0;
+                transition: .3s ease-out all;
+            }
+        }
+        .brow{
+            div{
+                height: .25rem;
+                width: 1.25rem;
+                top: 25%;
+                &.r{
+                    right: .5rem;
+                }
+                &.l{
+                    left: .5rem;
+                }
+            }
+            &.suprise{
+                div{
+                    top: 10%;
+                }
+            }
+            &.question{
+                .l{
+                    top: 10%;
+                }
+            }
+            &.worried{
+                .l{
+                    transform: rotate(-30deg)
+                }
+                .r{
+                    transform: rotate(30deg)
+                }
+            }
+            &.mad{
+                .l{
+                    transform: rotate(30deg)
+                }
+                .r{
+                    transform: rotate(-30deg)
+                }
+            }
+        }
+        .eye{
+            div{
+                height: 1.5rem;
+                width: .45rem;
+                top: 45%;
+                &.r{
+                    right: 1.25rem;
+                }
+                &.l{
+                    left: 1.25rem;
+                }
+            }
+        }
+    }
+}

@@ -5,8 +5,8 @@ main{
     padding:1rem 2rem;
     article{
         padding: 2.5rem 2rem;
+        padding-bottom: 10rem;
         background: #f1f1f1;
-        max-height: 30rem;
         overflow-y: scroll;
         h1{
             position: relative;
@@ -35,9 +35,24 @@ main{
             border-radius: 20px;
             opacity: 0;
             transition: .75s ease all;
+            iframe{
+                position: absolute;
+                left: 0;
+                top: 50%;
+                display: block;
+                opacity: 0;
+                transform: translate(-75%,-50%);
+                transition: .75s ease all;
+                transition-delay: .25s;
+                pointer-events: none;
+            }
             &.active{
                 opacity: 1;
                 transform: none !important;
+                iframe{
+                    opacity: 1;
+                    transform: translate(-100%,-50%);
+                }
             }
             &.ira{
                 border:5px solid #abc;
@@ -49,7 +64,7 @@ main{
                     border-top: 1.5rem solid #abc;
                     position: absolute;
                     bottom: -1.5rem;
-                    left: calc(30% - .5rem);
+                    left: calc(30% - -.5rem);
                 }
             }
             &.elna{
@@ -63,7 +78,7 @@ main{
                     border-top: 1.5rem solid #ebc;
                     position: absolute;
                     bottom: -1.5rem;
-                    left: calc(50% - 1rem);
+                    left: calc(50% - .5rem);
                 }
             }
             &.mark{
@@ -77,7 +92,7 @@ main{
                     border-top: 1.5rem solid #cba;
                     position: absolute;
                     bottom: -1.5rem;
-                    left: calc(70% - .5rem);
+                    left: calc(70% - 1.25rem);
                 }
             }
             h4{
@@ -122,6 +137,7 @@ main{
 }
 .b{
     font-size: 1.5rem;
+    color: red;
 }
 .c{
     font-family: "luckiest guy";
@@ -129,6 +145,7 @@ main{
 	-webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-.i{
+.i,i{
     font-style: italic;
+    color: greenyellow;
 }
