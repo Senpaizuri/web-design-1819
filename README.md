@@ -60,7 +60,6 @@ The portraits we're according to Marie not that well connected to the content.
 ![Week3 screencap](./week3.png)
 
 </details>
-
 <details>
     <summary>Sketches</summary>
 
@@ -69,6 +68,27 @@ The portraits we're according to Marie not that well connected to the content.
 </details>
 
 ### Research week 3
+
+I made some minor improvements, I added a few animations within the text balloons and tested these with Roobin since I missed my 3rd test with Marie due to illness.
+
+<details>
+    <summary>User Test</summary>
+
+![roobin](./roobin.jpg)
+
+</details>
+
+His feedback was quite positive aswell, but he found that it still lacked some personality and context about the "Pirates".
+
+My findings came down do these 2 points
+- Could use more thematic charm
+- Could be more lifely
+
+With this feedback I tried to focus on making the podcast more lifely.
+I tried to add faces and better animations to better portray the emotions of the speakers.
+
+I made the faces corrospond with the emotions that are "spoken".
+Also I tried to better convey the way things are spoken with animations and colors based on the Plutchik's wheel of emotions.
 
 <details>
     <summary>Plutchik's Wheel of Emotions</summary>
