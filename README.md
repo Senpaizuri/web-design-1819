@@ -2,6 +2,14 @@
 
 In this course I tried to make a podcast enjoyable for Marie, who has been deaf by birth.
 
+## User Scenario
+
+Marie was born deaf. This means that she has no concept of sound.
+She does however want to enjoy a Podcast just like the rest of us.
+But this is nigh impossible since it's only audio.
+
+The only way for her to enjoy this is to read a transcript or to get some other visual feedback in regards to the story.
+
 ## Week 1
 
 <details>
