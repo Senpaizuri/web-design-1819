@@ -127,25 +127,25 @@ main{
             }
         }
     }
-}
-.q{
-    letter-spacing: .1rem;
-}
-.l{
-    letter-spacing: .2rem;
-    font-style: italic;
-}
-.b{
-    font-size: 1.5rem;
-    color: red;
-}
-.c{
-    font-family: "luckiest guy";
-    background: linear-gradient(to right, #ebcc19 0%, orange 100%);
-	-webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-.i,i{
-    font-style: italic;
-    color: greenyellow;
+    .q{
+        letter-spacing: .1rem;
+    }
+    .l{
+        letter-spacing: .2rem;
+        font-style: italic;
+    }
+    .b{
+        font-size: 1.5rem;
+        color: red;
+    }
+    .c{
+        font-family: "luckiest guy";
+        background: linear-gradient(to right, #ebcc19 0%, orange 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    .i,i{
+        font-style: italic;
+        color: greenyellow;
+    }    
 }
