@@ -11,6 +11,14 @@ In this course I tried to make a podcast enjoyable for Marie, who has been deaf 
 
 </details>
 
+<details>
+    <summary>Sketches</summary>
+
+![fase1](./fase1.jpg)
+
+</details>
+
+
 In the first few days we didn't even meet Marie, so I had to work with only my assumptions.
 I assumed that typography would be my key to victory.
 I made text bigger where people spoke louder than usual, Italic when things we're asked.
@@ -21,7 +29,46 @@ Marie didn't associate **bolded**,*italic* or anything else for that matter with
 
 I now know I had to look into making the conversation more visual.
 
-## Research
+## Week 2
+
+<details>
+    <summary>Screencap week2</summary>
+
+![Week2 screencap](./week2.png)
+
+</details>
+
+<details>
+    <summary>Sketches</summary>
+
+![fase2](./fase2.jpg)
+
+</details>
+
+I tried to make the conversation feel more like a conversation with the next iteration.
+I used "female" and "male" colors for the speakers. They should be included to get a better idea of who's talking.
+Along with this I faded in the text balloons in the hope to make it at least a little bit more interesting.
+
+The feedback was quite liberating. I was heading in the right direction, but it was still a bit boring and still lacked the emotion I was looking for.
+The portraits we're according to Marie not that well connected to the content.
+
+## Week 3
+
+<details>
+    <summary>Screencap week3</summary>
+
+![Week3 screencap](./week3.png)
+
+</details>
+
+<details>
+    <summary>Sketches</summary>
+
+![fase3](./fase3.jpg)
+
+</details>
+
+### Research week 3
 
 <details>
     <summary>Plutchik's Wheel of Emotions</summary>
